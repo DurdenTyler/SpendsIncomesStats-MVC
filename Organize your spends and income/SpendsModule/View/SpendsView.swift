@@ -27,6 +27,9 @@ class SpendsView: UIView {
     
     private let customInputTextField = CustomTextField()
     
+    private let categories = Categories()
+    
+    
 
     
     
@@ -46,6 +49,7 @@ class SpendsView: UIView {
         self.addSubview(spendsTitle)
         self.addSubview(separatorUnderTitle)
         self.addSubview(customInputTextField)
+        self.addSubview(categories)
     }
     
 }
@@ -70,6 +74,13 @@ extension SpendsView {
             customInputTextField.topAnchor.constraint(equalTo: self.separatorUnderTitle.bottomAnchor, constant: 20),
             customInputTextField.widthAnchor.constraint(equalToConstant: 350),
             customInputTextField.heightAnchor.constraint(equalToConstant: 60)
+        ])
+        
+        NSLayoutConstraint.activate([
+            categories.topAnchor.constraint(equalTo: customInputTextField.bottomAnchor, constant: 25),
+            categories.leadingAnchor.constraint(equalTo: self.safeAreaLayoutGuide.leadingAnchor, constant: 20),
+            categories.trailingAnchor.constraint(equalTo: self.safeAreaLayoutGuide.trailingAnchor, constant: -5),
+            categories.heightAnchor.constraint(equalToConstant: 150)
         ])
     }
 }

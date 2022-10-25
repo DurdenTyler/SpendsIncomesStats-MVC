@@ -19,6 +19,7 @@
 		DD9E84302906F038007C6305 /* IncomesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E842F2906F038007C6305 /* IncomesView.swift */; };
 		DD9E84322906F0FD007C6305 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E84312906F0FC007C6305 /* StatsView.swift */; };
 		DD9E84352906F410007C6305 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E84342906F410007C6305 /* CustomTextField.swift */; };
+		DD9E84372907D761007C6305 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E84362907D761007C6305 /* Categories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		DD9E842F2906F038007C6305 /* IncomesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomesView.swift; sourceTree = "<group>"; };
 		DD9E84312906F0FC007C6305 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		DD9E84342906F410007C6305 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DD9E84362907D761007C6305 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				DD9E84342906F410007C6305 /* CustomTextField.swift */,
+				DD9E84362907D761007C6305 /* Categories.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			files = (
 				DD9E842E2906BD50007C6305 /* SpendsView.swift in Sources */,
 				DD9E840929058C58007C6305 /* SpendsViewController.swift in Sources */,
+				DD9E84372907D761007C6305 /* Categories.swift in Sources */,
 				DD9E842729059489007C6305 /* IncomesViewController.swift in Sources */,
 				DD9E840529058C58007C6305 /* AppDelegate.swift in Sources */,
 				DD9E84352906F410007C6305 /* CustomTextField.swift in Sources */,

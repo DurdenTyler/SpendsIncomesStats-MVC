@@ -10,6 +10,7 @@ import UIKit
 class SpendsViewController: UIViewController {
     
     private let spendsView = SpendsView()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
