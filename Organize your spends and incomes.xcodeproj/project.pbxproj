@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD05924E290970DC00E56FA2 /* Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05924D290970DC00E56FA2 /* Separator.swift */; };
+		DD0592502909927700E56FA2 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05924F2909927700E56FA2 /* Info.swift */; };
+		DD05925529099B9900E56FA2 /* UILabel + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05925429099B9900E56FA2 /* UILabel + Extensions.swift */; };
 		DD9E840529058C58007C6305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E840429058C58007C6305 /* AppDelegate.swift */; };
 		DD9E840729058C58007C6305 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E840629058C58007C6305 /* SceneDelegate.swift */; };
 		DD9E840929058C58007C6305 /* SpendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E840829058C58007C6305 /* SpendsViewController.swift */; };
@@ -18,11 +21,13 @@
 		DD9E842E2906BD50007C6305 /* SpendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E842D2906BD50007C6305 /* SpendsView.swift */; };
 		DD9E84302906F038007C6305 /* IncomesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E842F2906F038007C6305 /* IncomesView.swift */; };
 		DD9E84322906F0FD007C6305 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E84312906F0FC007C6305 /* StatsView.swift */; };
-		DD9E84352906F410007C6305 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E84342906F410007C6305 /* CustomTextField.swift */; };
 		DD9E84372907D761007C6305 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E84362907D761007C6305 /* Categories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD05924D290970DC00E56FA2 /* Separator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Separator.swift; sourceTree = "<group>"; };
+		DD05924F2909927700E56FA2 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		DD05925429099B9900E56FA2 /* UILabel + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extensions.swift"; sourceTree = "<group>"; };
 		DD9E840129058C58007C6305 /* Organize your spends and income.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Organize your spends and income.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9E840429058C58007C6305 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD9E840629058C58007C6305 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,7 +41,6 @@
 		DD9E842D2906BD50007C6305 /* SpendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendsView.swift; sourceTree = "<group>"; };
 		DD9E842F2906F038007C6305 /* IncomesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomesView.swift; sourceTree = "<group>"; };
 		DD9E84312906F0FC007C6305 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
-		DD9E84342906F410007C6305 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		DD9E84362907D761007C6305 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD05925329099B6700E56FA2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD05925429099B9900E56FA2 /* UILabel + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		DD9E83F829058C58007C6305 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +88,7 @@
 				DD9E842229058F32007C6305 /* StatsModule */,
 				DD9E841E29058F03007C6305 /* MainTabBarController.swift */,
 				DD9E841A29058E01007C6305 /* Resources */,
+				DD05925329099B6700E56FA2 /* Extensions */,
 			);
 			path = "Organize your spends and income";
 			sourceTree = "<group>";
@@ -202,8 +215,9 @@
 		DD9E84332906F3DE007C6305 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DD9E84342906F410007C6305 /* CustomTextField.swift */,
 				DD9E84362907D761007C6305 /* Categories.swift */,
+				DD05924D290970DC00E56FA2 /* Separator.swift */,
+				DD05924F2909927700E56FA2 /* Info.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -280,13 +294,15 @@
 			files = (
 				DD9E842E2906BD50007C6305 /* SpendsView.swift in Sources */,
 				DD9E840929058C58007C6305 /* SpendsViewController.swift in Sources */,
+				DD05924E290970DC00E56FA2 /* Separator.swift in Sources */,
 				DD9E84372907D761007C6305 /* Categories.swift in Sources */,
 				DD9E842729059489007C6305 /* IncomesViewController.swift in Sources */,
 				DD9E840529058C58007C6305 /* AppDelegate.swift in Sources */,
-				DD9E84352906F410007C6305 /* CustomTextField.swift in Sources */,
+				DD05925529099B9900E56FA2 /* UILabel + Extensions.swift in Sources */,
 				DD9E841F29058F03007C6305 /* MainTabBarController.swift in Sources */,
 				DD9E84302906F038007C6305 /* IncomesView.swift in Sources */,
 				DD9E842C290594E8007C6305 /* StatsViewController.swift in Sources */,
+				DD0592502909927700E56FA2 /* Info.swift in Sources */,
 				DD9E840729058C58007C6305 /* SceneDelegate.swift in Sources */,
 				DD9E84322906F0FD007C6305 /* StatsView.swift in Sources */,
 			);

@@ -366,7 +366,7 @@ extension Categories {
             labelAuto.topAnchor.constraint(equalTo: buttonAuto.bottomAnchor, constant: 8),
             labelAuto.centerXAnchor.constraint(equalTo: buttonAuto.centerXAnchor, constant: 0),
             labelAuto.heightAnchor.constraint(equalToConstant: 20),
-            labelAuto.widthAnchor.constraint(equalToConstant: 46)
+            labelAuto.widthAnchor.constraint(equalToConstant: 45)
         ])
         
         NSLayoutConstraint.activate([

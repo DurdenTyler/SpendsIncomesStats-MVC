@@ -9,14 +9,7 @@ import UIKit
 
 class IncomesView: UIView {
     
-    private let incomesTitle: UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Доходы"
-        label.textColor = .secondaryLabel
-        label.font = UIFont.systemFont(ofSize: 19, weight: .medium)
-        return label
-    }()
+    private let incomesTitle = UILabel(title: "Доходы")
     
     private let separatorUnderTitle: UIView = {
         let separator = UIView()

@@ -9,14 +9,7 @@ import UIKit
 
 class StatsView: UIView {
     
-    private let statsTitle: UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Статистика"
-        label.textColor = .secondaryLabel
-        label.font = UIFont.systemFont(ofSize: 19, weight: .medium)
-        return label
-    }()
+    private let statsTitle = UILabel(title: "Статистика")
     
     private let separatorUnderTitle: UIView = {
         let separator = UIView()
